@@ -1,0 +1,137 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<main>
+    <section class="container-fluid p-0 brain-banner">
+        <img src="../static/img/brain-banner.svg" class=" img-fluid brain-banner" alt="Responsive images">
+    </section>
+
+    <section class="container-fluid sobre">
+        <div class="jumbotron sobre-bgd jumbo">
+            <div class="row align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <img src="../static/img/quebra-cabeca.svg" class="quebra-cabeca-img img-fluid rounded d-block"
+                        alt="...">
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6  col-xl-6">
+                    <h1 class="sobre-titulo">Sobre</h1>
+                    <hr class="my-4 traco-verde">
+                    <p class="sobre-paragrafo text-justify">A Beevi é uma empresa de Inteligência Artificial e
+                        Aprendizado de
+                        Máquina que desenvolveu um
+                        conceito inovador denominado Cognitive Computer Vision (CCV). Ou seja, ver (Computer Vision ou
+                        Visão Computacional) e interpretar (Cognitive ou Cognitivo).</p>
+                    <p class="sobre-paragrafo text-justify">Nosso DIFERENCIAL é testar, desenvolver e levar ideias
+                        da academia
+                        para negócios e de negócios para a academia com foco nas áreas de Saúde e Pesquisas.
+                        Temos o olhar crítico de negócios para ofertar e desenvolver produtos e serviços (P&S)
+                        baseados em exaustivas pesquisas (P&D) acadêmicas no Brasil e no Mundo.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid p-0 produto-marie">
+        <img src="../static/img/marie-banner.svg" class="img-fluid marie-banner" alt="">
+
+        <div class="container-fluid mt-5   col-12  p-5">
+            <p class="paragrafo-marie text-justify"><strong>Marie</strong> é um sistema em SAAS que pode ser
+                integrado
+                a um aplicativo ou plataforma como suporte na triagem e no diagnóstico de COVID-19 e outras
+                patologias respiratórias.
+                Atualmente a plataforma detecta COVID-19, tuberculose, malária, dengue, SARS-COV-1, MERS,
+                Streptococcus Pneumoniae e H1N1.</p>
+            <p class="como-funciona text-justify"><strong>Como funciona?</strong> – O profissional de saúde envia
+                uma
+                imagem de Raio-X para aplicação e em poucos minutos, o resultado é retornado ao profissional, com o
+                possível diagnóstico.
+                A plataforma permite hoje avaliar o COVID-19 por grau e acurácia. Para os casos leves de COVID-19, a
+                acurácia média é de 94,1% e para os casos moderados e graves a acurácia média é de 98,7%.
+                O Marie foi validado com 1.219 imagens, com o fator KAPPA, o resultado é de 98,6%. O aplicativo foi
+                desenvolvido durante o projeto da SuperAção — SUPERA Parque Tecnológico —
+                uma iniciativa de startups com ações para o combate do COVID-19. Baseado no conceito inovador de CCV
+                Beevi (Cognitive Computer Vision), a empresa liderou o projeto para diagnóstico de COVID-19 em
+                raio-x. </p>
+            <p class="paragrafo-link-video-marie text-justify"><strong>Já estamos na segunda fase do IDEAGOV, o
+                    projeto
+                    do estado de São Paulo que busca soluções em diagnóstico de imagem.
+                    Entre no link para ver mais informações: <span> </span><a class="btn-ideiagov-edital"
+                        href="https://ideiagov.sp.gov.br/wp-content/uploads/2020/07/resultado-primeira_etapa_edital_IA.pdf"><img
+                            src="../static/img/btn-acesse-edital.svg" alt="Responsive image"></a></strong></p>
+
+        </div>
+
+        <div class="container-fluid embed-responsive embed-responsive-16by9 video-marie">
+            <iframe src="https://www.youtube.com/embed/DHHVWSumeE8" class="video-marie p-3" max-height="auto"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+    </section>
+
+    <section class="container-fluid p-0 time-beevi-container">
+        <h1 class="title-time display-5 text-center  p-4">Time Beevi</h1>
+        <div class="d-flex container-fluid justify-content-center align-items-center">
+            <div class="w-75 row justify-content-around align-items-center">
+                <div class="p-4">
+                    <img src="../static/img/time-beevi-paula.svg" class="img-fluid time mb-3" alt="">
+                    <a class="btn-linkedin-paula" href="https://www.linkedin.com/in/paula-santos-ba1204182/">
+                        <img src="../static/img/btn-linkedin.svg" class="img-fluid btn-linkedin "
+                            alt="Responsive image" />
+                    </a>
+                </div>
+                <div class="p-4">
+                    <img src="../static/img/time-beevi-jessica.svg" class="img-fluid time mb-3" alt="">
+                    <a class="btn-linkedin-jessica" href="https://www.linkedin.com/in/jclizar/">
+                        <img src="../static/img/btn-linkedin.svg" class="btn-linkedin" alt="Responsive image" />
+                    </a>
+                </div>
+
+                <div class="p-4">
+                    <img src="../static/img/time-beevi-hatae.svg" class="img-fluid time mb-3" alt="">
+                    <a class="btn-linkedin-hatae" href="https://www.linkedin.com/in/alex-hatae-a6b319/">
+                        <img src="../static/img/btn-linkedin.svg" class="btn-linkedin" alt="Responsive image" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+</main>
+
+<section class="container-fluid px-0 secao-contato">
+    <hr class="barra-verde">
+    <form class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12  col-md-12 col-lg-12 col-xl-12 p-4">
+                <!-- <h4 class="titulo-contato">Entre em contato</h4>
+                    <p class="texto-contato">Para contratação, sugestão e/ou dúvida, por favor utilize o formulário ao
+                        lado ou envie email para contato@beevi.com.br</p> -->
+                <p class="texto-contato-endereco text-center">Endereço: Rua Campos Sales, 398, Centro-Ribeirão Preto
+                </p>
+                <p class="texto-contato-endereco text-center">Caso tenha interesse em participar, por favor envie email
+                    para <a href="mailto:contato@beevi.com.br">contato@beevi.com.br</a>.</p>
+            </div>
+
+            <!-- <div class="form-row col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 p-4">
+                    <div class="form-group col-md-6">
+                        <label for="inputName" class="input-name-label">Name</label>
+                        <input type="name" class="form-control input-name" id="inputName">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail" class="input-email-label">Email</label>
+                        <input type="email" class="form-control input-email" id="inputEmail">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label for="Textarea" class="mensagem-secao-contato-label">Mensagem</label>
+                        <textarea class="form-control mensagem-secao-contato " id="textAreaContact" rows="3"></textarea>
+                    </div>
+                    <a class="btn-enviar-secao-contato " href="#">
+                        <img src="./img/btn-enviar-secao-contato.svg" class="img-fluid btn-enviar-secao-contato d-flex"
+                            alt=""></a>
+                </div> -->
+    </form>
+</section>
+
+{% endblock %}

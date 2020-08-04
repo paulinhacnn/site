@@ -1,0 +1,180 @@
+.nav-header{
+    background-color: #0A172E;
+  
+}
+
+.logo-nav{
+    max-width: 186px;
+    max-height: 55px;
+}
+
+
+
+/* .nav-link{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.btn{
+    background-color: #81EEBA; 
+    border: none;
+    color: #0A172E;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.icon-brasil{
+    padding: 7px;
+} */
+
+
+/*               fim do header              */
+
+.brain-banner{
+    min-width: 100%;
+}
+
+.sobre-titulo{
+
+    font-weight: 200;
+    color: #051421;
+}
+
+.sobre-bgd{
+    background-color: white;
+   
+}
+
+.jumbo{
+    padding: 3rem 2rem;
+}
+
+.traco-verde{
+    border-top: 1px solid #81EEBA;
+}
+
+.sobre-paragrafo{
+    font-size: 18px;
+    color: #5B5959;
+}
+
+.btn-saiba-mais{
+    font-weight: 500;
+}
+
+/* .quebra-cabeca-img{
+
+
+    
+} */
+
+.marie-banner{
+    min-width: 100%;
+}
+
+.paragrafos-marie{
+    color: #5B5959;
+}
+
+.video-marie{
+    max-height: 500px;
+    max-width: 889px;
+    margin-bottom: 5%;
+
+}
+
+.time-beevi-container{
+
+   
+    background: linear-gradient(180deg, #EFEFEF 0%, #C1CBE1 100%);
+}
+
+
+
+.title-time{
+    font-weight: 200;
+    color: #0A1E2F;
+
+}
+
+
+.btn-linkedin{
+    height: 15px;
+    display: flex;
+}
+
+.barra-verde{
+    height: 20px ;
+    background: #81EEBA;
+    margin: 0;
+    border: none;
+}
+
+.time{
+    max-width: 249px;
+    max-height: 242px;
+    justify-content: center;
+}
+
+.secao-contato{
+    background: #101624;
+}
+
+.titulo-contato{
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.texto-contato{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.texto-contato-endereco{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.btn-enviar-secao-contato{
+    width: 100%;
+}
+
+.footer-beevi{
+    background: #1B253E;;
+    height: 70px;
+    justify-items: center;
+}
+
+.btn-footer-linkedin{
+    max-width: 40px;
+    height: 46px;
+}
+
+.btn-footer-youtube{
+   max-width: 40px; 
+   height: 46px;
+}
+
+.input-name-label, .input-email-label, .mensagem-secao-contato-label{
+    color: #6FCF97;
+}
+
+.input-name, .input-email, .mensagem-secao-contato {
+    background: #101624;
+    border: 1px solid #6FCF97;
+}
+.input-email{
+    margin-bottom: 5%;
+}
+
+.btn-linkedin{
+    height: 15px;
+    inline-size: -webkit-fill-available;
+}
